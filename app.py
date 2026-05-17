@@ -255,7 +255,8 @@ if submit1 or submit2 or submit3:
             elif submit2:
                 prompt = input_prompt2
             else:
-                prompt = input_prompt3
+                prompt = input_prompt3    
+                
                 
             with st.spinner("Analyzing profile data..."):
                 resume_text = extract_text_from_pdf(uploaded_file)
